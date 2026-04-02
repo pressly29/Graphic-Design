@@ -18,8 +18,8 @@ export async function POST(req: NextRequest) {
 
   try {
     await resend.emails.send({
-      from: 'Pressly Design Studio <onboarding@resend.dev>', // Update once your domain is verified in Resend
-      to: 'hello@presslydesignstudio.com',                         // Replace with your real email when ready
+      from: 'Pressly Design Studio <hello@presslydesignstudio.com>', 
+      to: 'hello@presslydesignstudio.com',                         
       replyTo: email,                                        // Replies go directly back to the client
       subject: `New Inquiry: ${subject}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
