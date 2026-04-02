@@ -24,7 +24,8 @@ jobs:
             # Navigate to the project folder on the server
             cd /var/www/pressly-design-studio
 
-            # Pull the latest code from GitHub
+            # Discard any manual server-side changes before pulling
+            git reset --hard HEAD
             git pull origin main
 
             # Install dependencies (--production=false ensures devDeps are included for the build)
