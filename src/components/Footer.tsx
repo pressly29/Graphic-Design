@@ -37,11 +37,11 @@ export default function Footer() {
               100% digitally, worldwide.
             </p>
             <a
-              href="mailto:hello@presslydesign.com"
+              href="mailto:hello@presslydesignstudio.com"
               className="inline-flex items-center gap-2 text-[#4c8eda] text-sm hover:text-[#7f55d9] transition-colors duration-200 mt-2"
             >
               <Mail size={14} />
-              hello@presslydesign.com
+              hello@presslydesignstudio.com
             </a>
           </div>
 

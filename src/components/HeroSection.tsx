@@ -27,7 +27,7 @@ export default function HeroSection() {
           Pressly Design Studio
         </span>
         <a
-          href="mailto:hello@presslydesign.com"
+          href="mailto:hello@presslydesignstudio.com"
           className="text-sm text-white/60 hover:text-white transition-colors duration-200"
         >
           Get in Touch
@@ -73,7 +73,7 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="mailto:hello@presslydesign.com"
+            href="mailto:hello@presslydesignstudio.com"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-[#4c8eda] to-[#7f55d9] text-white font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity duration-200"
           >
             Start a Project

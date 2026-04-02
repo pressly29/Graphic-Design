@@ -146,7 +146,7 @@ export default function WorkflowSection() {
             Let&apos;s build something great together.
           </h3>
           <a
-            href="mailto:hello@presslydesign.com"
+            href="mailto:hello@presslydesignstudio.com"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-[#4c8eda] to-[#7f55d9] text-white font-semibold px-8 py-4 rounded-full hover:opacity-90 transition-opacity duration-200 text-sm"
           >
             Send a Brief

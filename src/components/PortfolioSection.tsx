@@ -181,7 +181,7 @@ export default function PortfolioSection() {
           <p className="text-white/30 text-sm">
             Interested in working together?{' '}
             <a
-              href="mailto:hello@presslydesign.com"
+              href="mailto:hello@presslydesignstudio.com"
               className="text-[#4c8eda] hover:text-[#7f55d9] transition-colors duration-200"
             >
               Start a conversation →

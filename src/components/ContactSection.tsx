@@ -9,7 +9,7 @@ type FormState = 'idle' | 'loading' | 'success' | 'error'
 const initialValues = { name: '', email: '', subject: '', message: '' }
 
 const details = [
-  { icon: Mail, text: 'hello@presslydesign.com' },
+  { icon: Mail, text: 'hello@presslydesignstudio.com' },
   { icon: Clock, text: 'Response within 1 business day' },
   { icon: Shield, text: 'Your data is never stored or shared' },
 ]
@@ -23,7 +23,7 @@ export default function ContactSection() {
     setValues((prev) => ({ ...prev, [e.target.name]: e.target.value }))
   }
 
-  async function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.SyntheticEvent<HTMLFormElement>) {
     e.preventDefault()
     setFormState('loading')
     setErrorMessage('')
