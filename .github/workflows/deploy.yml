@@ -34,5 +34,5 @@ jobs:
             # Build the Next.js app for production
             npm run build
 
-            # Restart the app — PM2 keeps it running with the new build
-            pm2 restart pressly-design-studio
+            # Start if not running, restart if already running
+            pm2 startOrRestart ecosystem.config.js --update-env
