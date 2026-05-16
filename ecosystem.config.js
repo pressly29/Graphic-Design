@@ -5,8 +5,8 @@ module.exports = {
   apps: [
     {
       name: 'pressly-design-studio',  // The name used in: pm2 restart pressly-design-studio
-      script: 'npm',
-      args: 'start',
+      script: 'node_modules/.bin/next',
+      args: 'start -p 3000',
       cwd: '/var/www/pressly-design-studio',
       env: {
         NODE_ENV: 'production',
