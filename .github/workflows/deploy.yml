@@ -17,9 +17,10 @@ jobs:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.DO_HOST }}         # Your droplet's IP address
-          username: ${{ secrets.DO_USERNAME }} # Usually 'root' or your server user
-          key: ${{ secrets.DO_SSH_KEY }}       # Your private SSH key (added to GitHub Secrets)
+          host: ${{ secrets.DO_HOST }}
+          username: ${{ secrets.DO_USERNAME }}
+          key: ${{ secrets.DO_SSH_KEY }}
+          fingerprint: ${{ secrets.DO_FINGERPRINT }}
           script: |
             # Navigate to the project folder on the server
             cd /var/www/pressly-design-studio
